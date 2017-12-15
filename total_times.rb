@@ -1,4 +1,4 @@
-# ok so I'll admit I couldn't think of how to do this on so this is very much taken from the solution
+# ok so I'll admit I couldn't think of how to do this one so this is very much taken from the solution
 # but I will add comments to show I at least know what's going on and am now writing this
 # without looking at the solution directly.
 
@@ -26,5 +26,3 @@ die1.each do |d1|
 end
 
 total_times.each { |sum, freq| puts "#{sum} occurs #{freq} times"}
-#
-# puts "There are #{total_permutations} possible permutations"
