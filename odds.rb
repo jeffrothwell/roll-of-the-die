@@ -21,13 +21,8 @@ die1.each do |d1|
   end
 end
 
-p total_permutations
-p total_times
-
 totals_as_probability = total_times.transform_values { |sum|
   (sum.to_f / total_permutations * 100).round
 }
-
-p totals_as_probability
 
 totals_as_probability.each { |sum, freq| puts "The probability of #{sum} coming up is #{freq}%"}
